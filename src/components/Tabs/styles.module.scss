@@ -1,0 +1,31 @@
+.tabs {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #EFEFF3;
+  min-height: 500px;
+  overflow: hidden;
+
+  .tab {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 6px 24px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 0;
+    border-bottom: 3px solid transparent;
+
+    &:hover {
+      border-bottom: 3px solid #EFEFF3;
+    }
+
+    &.active {
+      border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .line{
+    margin-bottom: 10px;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}

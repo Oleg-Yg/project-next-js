@@ -1,0 +1,22 @@
+.auth {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #EFEFF3;
+  background: rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    display: block;
+
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+  }
+}
+
